@@ -1,6 +1,6 @@
 function Hero() {
   const downloadTxtFile = () => {
-    const pdfUrl = "Ultimate-CV.pdf";
+    const pdfUrl = "Laura_s_Resume.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "Garcineanu_Elena-Laura_resume.pdf";
