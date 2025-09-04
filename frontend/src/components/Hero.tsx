@@ -9,26 +9,34 @@ function Hero() {
     document.body.removeChild(link);
   };
   return (
-    <div className="bg-zinc-950 text-stone-50 flex flex-col justify-center items-center h-screen">
-      <p className="text-xl ms-2">Hey, I'm Laura</p>
-      <h1 className="text-8xl">Full-Stack</h1>
-      <h1 className="text-indigo-600 text-8xl">Developer</h1>
-      <div
-        className="cursor-pointer flex items-center justify-center border-2 border-indigo-600 rounded-3xl py-2 px-4 mt-4 hover:bg-indigo-600 hover:text-white transition-colors duration-300"
-        onClick={downloadTxtFile}
-      >
-        <svg
-          className="fill-white"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 512 512"
-          width="20"
-          height="20"
+    <div className="text-stone-50 flex flex-col justify-center items-center text-center h-screen">
+      <p className="text-xl ms-2 text-stone-400">Hello, I am</p>
+      <h1 className="text-6xl font-bold mt-1 mb-2">Gârcineanu Elena-Laura</h1>
+      <h1 className="text-stone-400 text-4xl">Full-Stack Developer</h1>
+      <div className="flex justify-center items-center mt-2">
+        <div className="fill-stone-50 w-8 h-8">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+            <path d="M128 252.6C128 148.4 214 64 320 64C426 64 512 148.4 512 252.6C512 371.9 391.8 514.9 341.6 569.4C329.8 582.2 310.1 582.2 298.3 569.4C248.1 514.9 127.9 371.9 127.9 252.6zM320 320C355.3 320 384 291.3 384 256C384 220.7 355.3 192 320 192C284.7 192 256 220.7 256 256C256 291.3 284.7 320 320 320z" />
+          </svg>
+        </div>
+        <h1>Romania</h1>
+      </div>
+      <div className="flex justify-center items-center gap-4 mt-3">
+        <div
+          className="cursor-pointer flex items-center justify-center border-2 border-stone-600 rounded-3xl py-2 px-4 hover:bg-stone-600 hover:text-white transition-colors duration-300"
+          onClick={downloadTxtFile}
         >
-          <path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 242.7-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7 288 32zM64 352c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-32c0-35.3-28.7-64-64-64l-101.5 0-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352 64 352zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-        </svg>
-        <button id="downloadBtn" value="download" className="cursor-pointer ms-2">
-          Download Resume
-        </button>
+          <button
+            id="downloadBtn"
+            value="download"
+            className="cursor-pointer ms-2"
+          >
+            Download CV
+          </button>
+        </div>
+        <div className="text-center bg-stone-600 border-2 border-stone-600 rounded-3xl py-2 px-4 hover:bg-zinc-950 hover:text-white transition-colors duration-300">
+          <a href="#Contact">Contact info</a>
+        </div>
       </div>
     </div>
   );
