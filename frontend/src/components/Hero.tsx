@@ -9,7 +9,7 @@ function Hero() {
     document.body.removeChild(link);
   };
   return (
-    <div className="text-stone-50 flex flex-col justify-center items-center text-center h-screen">
+    <div className="text-stone-50 flex flex-col justify-center items-center text-center h-screen absolute inset-0 z-10 pointer-events-none">
       <p className="text-xl ms-2 text-stone-400">Hello, I am</p>
       <h1 className="text-6xl font-bold mt-1 mb-2">Gârcineanu Elena-Laura</h1>
       <h1 className="text-stone-400 text-4xl">Full-Stack Developer</h1>

@@ -3,15 +3,24 @@ import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Stack from "./components/Stack";
 import Contact from "./components/Contact";
+import Tile from "./components/Tile";
+import { motion } from "motion/react";
 
 function App() {
   return (
-    <div className="bg-zinc-950">
+    <main className="w-full relative">
+      {/* Grid background */}
+      <section className="w-full grid grid-cols-12 h-screen overflow-y-clip">
+        {Array.from(Array(12 * 12), (_, i) => (
+          <Tile key={i} />
+        ))}
+      </section>
       <Hero />
       <Stack />
       <Projects />
       <Contact />
-    </div>
+    </main>
+    /**/
   );
 }
 
