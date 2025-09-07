@@ -8,7 +8,6 @@ import Tile from "./components/Tile";
 function App() {
   return (
     <main className="w-full relative">
-      {/* Grid background */}
       <section className="w-full grid grid-cols-12 h-screen overflow-y-clip">
         {Array.from(Array(12 * 12), (_, i) => (
           <Tile key={i} />

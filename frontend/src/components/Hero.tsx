@@ -1,3 +1,5 @@
+import { motion } from "motion/react";
+
 function Hero() {
   const downloadTxtFile = () => {
     const pdfUrl = "Laura_s_Resume.pdf";
@@ -26,15 +28,20 @@ function Hero() {
           className="cursor-pointer flex items-center justify-center border-2 border-stone-600 rounded-3xl py-2 px-4 hover:bg-stone-600 hover:text-white transition-colors duration-300"
           onClick={downloadTxtFile}
         >
-          <button
+          <motion.button
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ type: "spring", stiffness: 400, damping: 17 }}
             id="downloadBtn"
             value="download"
-            className="cursor-pointer ms-2"
+            className="cursor-pointer ms-2 pointer-events-auto"
           >
             Download CV
-          </button>
+          </motion.button>
         </div>
-        <div className="text-center bg-stone-600 border-2 border-stone-600 rounded-3xl py-2 px-4 hover:bg-zinc-950 hover:text-white transition-colors duration-300">
+        <div className="text-center bg-stone-600 border-2 border-stone-600 rounded-3xl py-2 px-4 hover:bg-transparent hover:text-white pointer-events-auto">
           <a href="#Contact">Contact info</a>
         </div>
       </div>
