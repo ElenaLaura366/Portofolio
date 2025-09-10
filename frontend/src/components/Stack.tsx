@@ -4,7 +4,7 @@ function Stack() {
       <h1 className="text-4xl font-bold mb-1">Skills</h1>
       <span className="bg-stone-600 w-22 h-1 rounded-xl mb-4"></span>
       <div className="grid md:grid-rows-2 lg:grid-rows-2 lg:grid-cols-4 gap-6 mt-8">
-        <div className="flex justify-center items-center bg-stone-800 hover:bg-stone-900 px-4 py-2 rounded-lg">
+        <div className="flex justify-center items-center bg-stone-800 px-4 py-2 rounded-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
@@ -19,7 +19,7 @@ function Stack() {
             <p className="text-md text-stone-600">JavaScript library</p>
           </div>
         </div>
-        <div className="flex justify-center items-center bg-stone-800 hover:bg-stone-900 px-4 py-2 rounded-lg">
+        <div className="flex justify-center items-center bg-stone-800 px-4 py-2 rounded-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="55"
@@ -37,7 +37,7 @@ function Stack() {
             <p className="text-md text-stone-600">CSS toolkit</p>
           </div>
         </div>
-        <div className="flex justify-center items-center bg-stone-800 hover:bg-stone-900 px-4 py-2 rounded-lg">
+        <div className="flex justify-center items-center bg-stone-800 px-4 py-2 rounded-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50"
@@ -52,7 +52,7 @@ function Stack() {
             <p className="text-md text-stone-700">Typed JavaScript</p>
           </div>
         </div>
-        <div className="flex justify-center items-center bg-stone-800 hover:bg-stone-900 px-4 py-2 rounded-lg">
+        <div className="flex justify-center items-center bg-stone-800 px-4 py-2 rounded-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50"
@@ -67,7 +67,7 @@ function Stack() {
             <p className="text-md text-stone-700">Web framework</p>
           </div>
         </div>
-        <div className="flex justify-center items-center bg-stone-800 hover:bg-stone-900 px-4 py-2 rounded-lg">
+        <div className="flex justify-center items-center bg-stone-800 px-4 py-2 rounded-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
@@ -82,7 +82,7 @@ function Stack() {
             <p className="text-md text-stone-600">Modern backend</p>
           </div>
         </div>
-        <div className="flex justify-center items-center bg-stone-800 hover:bg-stone-900 px-4 py-2 ps-9 rounded-lg">
+        <div className="flex justify-center items-center bg-stone-800 px-4 py-2 ps-9 rounded-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
@@ -97,7 +97,7 @@ function Stack() {
             <p className="text-md text-stone-700">Version control</p>
           </div>
         </div>
-        <div className="flex justify-center items-center bg-stone-800 hover:bg-stone-900 px-4 py-2 rounded-lg">
+        <div className="flex justify-center items-center bg-stone-800 px-4 py-2 rounded-lg">
           <svg
             className="fill-green-600 me-4"
             xmlns="http://www.w3.org/2000/svg"
@@ -112,7 +112,7 @@ function Stack() {
             <p className="text-md text-stone-700">NoSQL database</p>
           </div>
         </div>
-        <div className="flex justify-center items-center bg-stone-800 hover:bg-stone-900 px-4 py-2 rounded-lg">
+        <div className="flex justify-center items-center bg-stone-800 px-4 py-2 rounded-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50"
