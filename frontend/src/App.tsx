@@ -4,6 +4,7 @@ import Projects from "./components/Projects";
 import Stack from "./components/Stack";
 import Contact from "./components/Contact";
 import Tile from "./components/Tile";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Stack />
       <Projects />
       <Contact />
+      <SpeedInsights />
     </main>
     /**/
   );
